@@ -1,0 +1,24 @@
+{
+    "name": "klever/romulus",
+    "description": "Remote Object Mapper",
+    "authors": [
+        {
+            "name": "Tim Klever",
+            "email": "tim@timisawesome.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Klever\\Romulus\\": "src/Romulus/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Klever\\RomulusTest\\": "test/RomulusTes/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    }
+}
